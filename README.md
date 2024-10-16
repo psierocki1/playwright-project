@@ -1,41 +1,35 @@
-Hi, i'm Wojciech 👋
-Quality Assurance Engineer
 About me
-class QA {
-  firstName: string = 'Wojciech';
-  lastName: string = 'Błądek';
-  age: number = 30;
-  profession: string = 'Quality Assurance Engineer';
 
-  emailMe(): void {
-    console.log('wojciechbladekk@gmail.com');
+class QA {
+  firstName: string = 'Patryk';
+  lastName: string = 'Sierocki';
+  age: number = 28;
+  profession: string = 'Senior QA Tester';
+
+  myEmail(): void {
+    console.log('patryk.sierocki13@gmail.com');
   }
 
   aboutMe(): void {
     console.log(`
-          My position is Quality Assurance, I am in charge of maintaining
-           quality in projects, I started the adventure of my profession as
-            early as 2021, since then I develop my skills every day until
-            today
-          I am passionate when it comes to software testing, my most important
-           trait in this profession by far is meticulousness, perfectionism,
-           communicativeness`);
+          My position is Quality Assurance, I am responsible for maintenance
+          quality in projects, I started my adventure with my profession as a
+          at the beginning of 2019, since then I have been developing my skills every day until Today
+          I'm passionate when it comes to software testing, my top priority
+          The trait in this profession is definitely accuracy, perfectionism,
+          communicativeness`);
   }
-  useMySkills(): void {
+  mySkills(): void {
     console.log(`
           Quality assurance, Software testing, Manual Testing ,Automation
           Testing ,Jira ,Postman ,Playwright ,Cypress ,Testing methodology ,Web Apps -
-          Testing ,Scrum ,Agile ,Rest API ,JavaScript ,TypeScript ,SQL ,GIT,
-          ISTQB knowledge ,DevTools ,CI/CD ,UML Sequnce Diagram ,Block Diagram ,
-          Java(wip), Appium + WDIO(wip), Selenium + WDIO(wip).
+          Testing ,Scrum ,Agile ,Rest API,TypeScript ,SQL ,GIT,
+          ISTQB knowledge ,DevTools ,CI/CD ,UML Sequnce Diagram, BPMN Diagram
           `);
   }
-  enjoyBetterQuality(): string {
-    return 'Happy Clients';
-  }
 }
-const wojciech = new QA();
-wojciech.aboutMe();
-wojciech.emailMe();
-wojciech.useMySkills();
-wojciech.enjoyBetterQuality();
+
+const patryk = new QA();
+patryk.aboutMe();
+patryk.myEmail();
+patryk.mySkills();
